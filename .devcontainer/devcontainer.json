@@ -1,0 +1,8 @@
+{
+  "name": "C# Razor + Docker",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postCreateCommand": "dotnet restore MyRazorApp/MyRazorApp.csproj"
+}
